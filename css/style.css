@@ -85,3 +85,36 @@ body {
 .mr-sm {
 	margin-right: 1.6rem !important;
 }
+
+.delivered-meals {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	margin-top: 6rem;
+}
+
+.delivered-imgs {
+	display: flex;
+}
+
+.delivered-imgs img {
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	margin-right: -1.4rem;
+	border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+	margin-right: 0;
+}
+
+.delivered-text {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.delivered-text span {
+	color: #cf711f;
+	font-weight: 700;
+}
