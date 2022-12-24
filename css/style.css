@@ -76,6 +76,7 @@ body {
 	align-items: center;
 	background-color: #fdf2e9;
 	height: 8rem;
+	padding: 0 4rem;
 }
 
 .logo {
@@ -88,12 +89,13 @@ body {
 
 .section-hero {
 	background-color: #fdf2e9;
-	padding: 8rem 0;
+	padding: 4rem 0 8rem 0;
 }
 
 .hero {
 	max-width: 120rem;
 	margin: 0 auto;
+	padding: 0 3rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
