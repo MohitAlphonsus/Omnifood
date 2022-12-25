@@ -115,8 +115,39 @@
 }
 
 /********************/
-/* HERO SECTION */
+/* SECTION FEATURED-IN */
 /*******************/
+
+.section-featured {
+	padding: 4rem 0 3rem 0;
+}
+
+.heading-featured-in {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 2.4rem;
+	color: #888;
+}
+
+.featured-logos {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.featured-logos img {
+	height: 3rem;
+	filter: brightness(0);
+	opacity: 0.5;
+}
+
+/********************/
+/* SECTION HOW IT WORKS */
+/*******************/
+
 .section-how {
 	padding: 8rem 0;
 }
