@@ -19,6 +19,25 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /*******************/
 
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+
+.grid {
+	display: grid;
+	gap: 8rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
 .heading-primary {
 	font-size: 5rem;
 	font-weight: 700;
@@ -180,4 +199,12 @@ body {
 .delivered-text span {
 	color: #cf711f;
 	font-weight: 700;
+}
+
+/********************/
+/* HERO SECTION */
+/*******************/
+.section-how {
+	padding: 8rem 0;
+	background-color: tomato;
 }
