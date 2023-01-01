@@ -27,8 +27,8 @@ body {
 
 .grid {
 	display: grid;
-	row-gap: 8rem;
 	column-gap: 6.5rem;
+	row-gap: 8rem;
 }
 
 .grid:not(:last-child) {
@@ -166,6 +166,7 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
+	line-height: 1.2;
 }
 
 .list-icon {
