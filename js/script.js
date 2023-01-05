@@ -13,7 +13,6 @@ btnNavEl.addEventListener('click', function () {
 
 // smooth scrolling
 const allLinks = document.querySelectorAll('a:link');
-console.log(allLinks);
 
 allLinks.forEach(function (link) {
 	link.addEventListener('click', function (e) {
@@ -39,3 +38,20 @@ allLinks.forEach(function (link) {
 			headerEl.classList.toggle('nav-open');
 	});
 });
+
+// STICKY NAVIGATION
+const sectionHeroEl = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver(
+	function (entries) {
+		const entry = entries[0];
+		if (entry.isIntersecting === false) document.body.classList.add('sticky');
+		if (entry.isIntersecting === true) document.body.classList.remove('sticky');
+	},
+	{
+		root: null,
+		threshold: 0,
+		rootMargin: '-80px',
+	},
+);
+observer.observe(sectionHeroEl);
